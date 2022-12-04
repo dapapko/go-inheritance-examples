@@ -24,4 +24,6 @@ func main() {
 	access_parent_fields_wrong_example.Run()
 	fmt.Println("===Parent fields initialization and access (wrong ptr example)===")
 	access_parent_fields_wrong_example.RunPtrExample()
+	fmt.Println("===Access to parents fields and methodas shorthands example===")
+	access_to_fields_shorthands.RunPtrExample()
 }

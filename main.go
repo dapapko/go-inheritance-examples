@@ -4,6 +4,7 @@ import (
 	"fmt"
 	access_parent_fields "go-examples/access-parent-fields"
 	access_parent_fields_wrong_example "go-examples/access-parent-fields-wrong-example"
+	access_to_fields_shorthands "go-examples/access-to-parent-fields-and-methods-shorthands"
 	basicInheritance "go-examples/basic-inheritance"
 	methodOverride "go-examples/method-override"
 	multipleInheritance "go-examples/multiple-inheritance"
@@ -24,6 +25,6 @@ func main() {
 	access_parent_fields_wrong_example.Run()
 	fmt.Println("===Parent fields initialization and access (wrong ptr example)===")
 	access_parent_fields_wrong_example.RunPtrExample()
-	fmt.Println("===Access to parents fields and methodas shorthands example===")
-	access_to_fields_shorthands.RunPtrExample()
+	fmt.Println("===Access to parents fields and methods shorthands example===")
+	access_to_fields_shorthands.Run()
 }

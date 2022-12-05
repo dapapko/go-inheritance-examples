@@ -20,7 +20,7 @@ func (d derivative) Y() int {
 }
 
 func (d derivative) SetX(x int) {
-	d.parent.x = x
+	d.x = x
 }
 
 func newDerivative(x int, y int) derivative {
